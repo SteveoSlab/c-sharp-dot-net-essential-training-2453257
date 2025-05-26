@@ -3,9 +3,7 @@
     "",
     "\\Start",
     "\\Start\\Overview",
-    "\\Start\\Overview\\GarbageCollect",
-    "\\Start\\Strings\\Formatting"
+    "\\Start\\Overview\\GarbageCollect"
   ],
-  "SelectedNode": "\\Start\\Overview\\GarbageCollect",
   "PreviewInSolutionExplorer": false
 }
