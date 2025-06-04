@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Start",
-    "\\Start\\Overview",
-    "\\Start\\Overview\\GarbageCollect"
+    "\\Start\\Overview\\GarbageCollect",
+    "\\Start\\Strings\\Manipulation"
   ],
+  "SelectedNode": "\\Start\\Strings",
   "PreviewInSolutionExplorer": false
 }
