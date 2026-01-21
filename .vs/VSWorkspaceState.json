@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Start",
-    "\\Start\\NumbersDates",
-    "\\Start\\NumbersDates\\DateTimeClass",
-    "\\Start\\NumbersDates\\ParseDates",
-    "\\Start\\NumbersDates\\ParseNumbers"
+    "\\Start\\Files",
+    "\\Start\\Files\\Directories"
   ],
-  "SelectedNode": "\\Start\\NumbersDates\\ParseNumbers\\Program.cs",
+  "SelectedNode": "\\Start\\Files\\Directories\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
