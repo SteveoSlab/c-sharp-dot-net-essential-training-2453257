@@ -41,3 +41,22 @@ foreach (Match match in mc) {
     Console.WriteLine($"'{match.Value}' found at position {match.Index}");
 }
 
+Console.WriteLine("---------------");
+
+Regex dates = new Regex(@"([0-9]+)");
+string result = "";
+MatchCollection mc = dates.Matches(date_str);
+string[] strArray = new string[3];
+long index = 0;
+
+if (mc.Count == 3)
+{
+    foreach (Match m in mc)
+    {
+        strArray.SetValue(m.Value, index);
+        index++;
+    }
+    result = $"{strArray[2]}-{strArray[0]}-{strArray[1]}";
+}
+Console.WriteLine(result);
+//return result;
