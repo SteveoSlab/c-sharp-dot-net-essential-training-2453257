@@ -25,3 +25,4 @@ obj/
 /.vs/slnx.sqlite-journal
 /.vs/DotNet Practice.slnx/v18/.wsuo
 /.vs/DotNet Practice.slnx/FileContentIndex/f5e6820a-e8e4-4472-a4cf-8b009882530e.vsidx
+*.vsidx
