@@ -1,24 +1,38 @@
 ﻿// LinkedIn Learning Course .NET Programming with C# by Joe Marini
 // Creating and Deleting Directories
 
-const string dirname = "TestDir";
+class DirectoryExamples {
+    public static void Main() {
+        const string dirname = "TestDir";
 
-// TODO: Create a Directory if it doesn't already exist
+        CreateOrDeleteDirectory(dirname);
+    }
+
+    // TODO: Create a Directory if it doesn't already exist
+    public static void CreateOrDeleteDirectory(string testDirName) {
+        if (!Directory.Exists(testDirName)) {
+            Directory.CreateDirectory(testDirName);
+        } else {
+            Directory.Delete(testDirName);
+        }
+        return;
+    }
+
+    // TODO: Get the path for the current directory
 
 
-// TODO: Get the path for the current directory
+    // TODO: Just like with files, you can retrieve info about a directory
 
 
-// TODO: Just like with files, you can retrieve info about a directory
+    // TODO: Enumerate the contents of directories
+    // Console.WriteLine("Just directories:");
 
+    // Console.WriteLine("---------------");
 
-// TODO: Enumerate the contents of directories
-// Console.WriteLine("Just directories:");
+    // Console.WriteLine("Just files:");
 
-// Console.WriteLine("---------------");
+    // Console.WriteLine("---------------");
 
-// Console.WriteLine("Just files:");
+    // Console.WriteLine("All directory contents:");
 
-// Console.WriteLine("---------------");
-
-// Console.WriteLine("All directory contents:");
+}
